@@ -9,6 +9,11 @@
     {{- rule -}}
   {% endfor %}
 
+  {% if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /pages/cookie-policy' }}
+    {{ 'Disallow: /pages/privacy-policy' }}
+    {{ 'Disallow: /pages/termini-e-condizioni' }}
+
   {%- if group.sitemap != blank -%}
     {{ group.sitemap }}
   {%- endif -%}
