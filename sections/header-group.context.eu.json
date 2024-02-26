@@ -4,5 +4,16 @@
     "market": "eu"
   },
   "sections": {
+    "announcement_bar_ybnNBC": {
+      "settings": {
+      },
+      "blocks": {
+        "announcement_hBfPaJ": {
+          "settings": {
+            "text": "Spedizione gratuita sugli ordini a partire da €100"
+          }
+        }
+      }
+    }
   }
 }
