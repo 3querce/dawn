@@ -106,6 +106,7 @@
         "c6240319-1c08-4436-bac6-4e144fd288e2": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
+            "badgeMode": "info",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": false,
@@ -181,6 +182,12 @@
     "0d6458c0-2be1-4039-80f0-fdc8cf0e1807": {
       "type": "rich-text",
       "blocks": {
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Se cerchi un lavoro che ti dia soddisfazioni e che ti dia la libertà di organizzarlo a tuo modo<\/p>"
+          }
+        },
         "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-heading-1": {
           "type": "heading",
           "settings": {
@@ -188,21 +195,27 @@
             "heading_size": "h1"
           }
         },
-        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1": {
-          "type": "text",
+        "button_mNyndf": {
+          "type": "button",
           "settings": {
-            "text": "<p>Compila il modulo qui sotto, risponderemo al più presto!<\/p>"
+            "button_label": "Iscriviti ora e verrai contattato al più presto!",
+            "button_link": "https:\/\/partners.3querce.com\/create-account\/modern",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1",
         "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-heading-1",
-        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1"
+        "button_mNyndf"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 16
