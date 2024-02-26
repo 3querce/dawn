@@ -2,10 +2,12 @@
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
     {% comment %}theme-check-disable{% endcomment %}
-    <script
-      type="text/javascript"
-      src="https://app.termly.io/resource-blocker/6916764d-ac3b-4f7a-afc9-0133df4ea343?autoBlock=on"
-    ></script>
+    {% unless request.design_mode %}
+      <script
+        type="text/javascript"
+        src="https://app.termly.io/resource-blocker/6916764d-ac3b-4f7a-afc9-0133df4ea343?autoBlock=on"
+      ></script>
+    {% endunless %}
     {% comment %}theme-check-enable{% endcomment %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
