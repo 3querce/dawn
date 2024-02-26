@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "32da435c-2655-4964-a0b9-db0fddb0d224": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17199402287363__32da435c-2655-4964-a0b9-db0fddb0d224-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "CORPO ANIMA MENTE",
+            "heading_size": "hxl"
+          }
+        },
+        "1184bb9f-e1ed-49ad-b611-2f7c716cc473": {
+          "type": "caption",
+          "settings": {
+            "caption": "IN EQUILIBRIO",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--17199402287363__32da435c-2655-4964-a0b9-db0fddb0d224-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Il nostro slogan<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17199402287363__32da435c-2655-4964-a0b9-db0fddb0d224-heading-1",
+        "1184bb9f-e1ed-49ad-b611-2f7c716cc473",
+        "template--17199402287363__32da435c-2655-4964-a0b9-db0fddb0d224-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5cf4e7eb-e001-4d95-842a-44cef62e4ce0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17199402287363__5cf4e7eb-e001-4d95-842a-44cef62e4ce0-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Ecosostenibilità<\/strong>",
+            "text": "<p>Riducendo al minimo l'uso della plastica, dell'acqua e dell'energia, preferiamo la carta e i cosmetici solidi rispetto a quelli liquidi.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17199402287363__5cf4e7eb-e001-4d95-842a-44cef62e4ce0-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Produzione Italiana<\/strong>",
+            "text": "<p>Diamo la priorità a prodotti provenienti da piccole imprese italiane gestite da giovani artigiani.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "63d6c434-d1a5-49df-9baa-09be7dffa5c9": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Impatto zero<\/strong>",
+            "text": "<p>Tutte le nostre spedizioni sono già ad <a href=\"\/pages\/climate-commitment\" target=\"_blank\" title=\"Impegno Climatico\">impatto zero<\/a>, e lavoriamo ogni giorno per trovare nuove modalità per salvaguardare il nostro pianeta.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17199402287363__5cf4e7eb-e001-4d95-842a-44cef62e4ce0-column-1",
+        "template--17199402287363__5cf4e7eb-e001-4d95-842a-44cef62e4ce0-column-3",
+        "63d6c434-d1a5-49df-9baa-09be7dffa5c9"
+      ],
+      "settings": {
+        "title": "I nostri Valori",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1703582898fc18695e": {
+      "type": "apps",
+      "blocks": {
+        "c6240319-1c08-4436-bac6-4e144fd288e2": {
+          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "showLogo": true,
+            "showMoreInfo": true,
+            "showStats": false,
+            "showProjects": false,
+            "backgroundColor": "#f1f8f5",
+            "textColor": "#1d4136",
+            "borderColor": "#95c9b4",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
+          }
+        }
+      },
+      "block_order": [
+        "c6240319-1c08-4436-bac6-4e144fd288e2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "90bc3f79-cd1e-40ce-ab09-b2cc6a784709": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Qualità a Prezzi Accessibili",
+            "icon": "price_tag",
+            "row_content": "<p>Ci impegniamo ad offrire prodotti di alta qualità a prezzi accessibili.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Emozioni Positive",
+            "icon": "chat_bubble",
+            "row_content": "<p>Miriamo a offrire tranquillità e sicurezza attraverso i nostri prodotti.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Supporto Clienti",
+            "icon": "heart",
+            "row_content": "<p>Siamo qui per supportarvi con un servizio clienti attento, anche grazie ai nostri collaboratori dedicati presenti sul territorio.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-1",
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-2",
+        "template--17199402287363__90bc3f79-cd1e-40ce-ab09-b2cc6a784709-collapsible_row-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "I nostri Impegni",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0d6458c0-2be1-4039-80f0-fdc8cf0e1807": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lavora con noi!",
+            "heading_size": "h1"
+          }
+        },
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Compila il modulo qui sotto, risponderemo al più presto!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-heading-1",
+        "template--17199402287363__0d6458c0-2be1-4039-80f0-fdc8cf0e1807-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "8b65bc98-3441-41fb-9583-213defd436bd": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Non esitare a contattarci!",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "32da435c-2655-4964-a0b9-db0fddb0d224",
+    "5cf4e7eb-e001-4d95-842a-44cef62e4ce0",
+    "1703582898fc18695e",
+    "90bc3f79-cd1e-40ce-ab09-b2cc6a784709",
+    "0d6458c0-2be1-4039-80f0-fdc8cf0e1807",
+    "8b65bc98-3441-41fb-9583-213defd436bd"
+  ]
+}

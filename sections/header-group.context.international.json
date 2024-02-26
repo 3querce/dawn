@@ -1,0 +1,15 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "international"
+  },
+  "sections": {
+    "announcement_bar_ybnNBC": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
+  }
+}
