@@ -34,6 +34,7 @@
         "text_n4b8wB",
         "buttons_biFMEE"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/website_c051bc49-19aa-44f1-a3d3-d84849a47a5e.png",
         "image_overlay_opacity": 0,
@@ -90,7 +91,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC_0378_1200H.webp",
         "image_overlay_opacity": 0,
