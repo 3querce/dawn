@@ -11,41 +11,20 @@
     "multirow_mpjhMV": {
       "type": "multirow",
       "blocks": {
-        "row_wpUUMQ": {
+        "row_er3xRe": {
           "type": "row",
+          "repeater": "{{ page.metafields.custom.events_list.value }}",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_GiQjTU": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_gngMGP": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "{{ block.repeater.nation.value }}",
+            "heading": "{{ block.repeater.region.value }}",
+            "text": "{{ block.repeater.description | metafield_tag }}",
+            "button_label": "{{ block.repeater.title.value }}",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_wpUUMQ",
-        "row_GiQjTU",
-        "row_gngMGP"
+        "row_er3xRe"
       ],
       "settings": {
         "image_height": "small",
