@@ -15,10 +15,10 @@
           "type": "row",
           "repeater": "{{ page.metafields.custom.events_list.value }}",
           "settings": {
-            "caption": "Test",
+            "caption": "{{ block.repeater.start_date_time | metafield_text }} - {{ block.repeater.end_date_time | metafield_text }}",
             "heading": "{{ block.repeater.title.value }}",
             "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
-            "button_label": "",
+            "button_label": "{{ block.repeater.city.value }}, {{ block.repeater.region.value }}, {{ block.repeater.nation.value }}",
             "button_link": ""
           }
         }
