@@ -15,11 +15,12 @@
           "type": "row",
           "repeater": "{{ page.metafields.custom.events_list.value }}",
           "settings": {
+            "image": "{{ block.repeater.cover_img.value }}",
             "caption": "{{ block.repeater.start_date_time | metafield_text }} - {{ block.repeater.end_date_time | metafield_text }}",
             "heading": "{{ block.repeater.title.value }}",
             "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
             "button_label": "{{ block.repeater.city.value }}, {{ block.repeater.region.value }}, {{ block.repeater.nation.value }}",
-            "button_link": ""
+            "button_link": "{{ block.repeater.link.value }}"
           }
         }
       },
@@ -28,13 +29,13 @@
       ],
       "settings": {
         "image_height": "small",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "align-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
